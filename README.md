@@ -34,7 +34,7 @@ This is a basic chat app that requires user authentication, you can send text w/
 
 - Mobile responsiveness behavior and WCAG implementation. Implemented some mobile responsiveness behavior on some of the components but this needs more work.
 
-- Adding the video call functionality and sending other file types.
+- Adding the video call functionality and sending of other file types.
 
 <br>
 

@@ -46,12 +46,7 @@ This is a basic chat app that requires user authentication, you can send text w/
 
 3. You need to create an .env file first with these variables which will contain the configuration from Firebase. This will help prevent others to have access to your configuration data if you are planning to share the codebase to others. Just make sure that the _.env_ is included in your _.gitignore_ file.} :
 
-   > `VITE_FB_APIKEY=` <br>
-   > `VITE_FB_AUTHDOMAIN= `<br>
-   > `VITE_FB_PROJECTID=` <br>
-   > `VITE_FB_STORAGEBUCKET=` <br>
-   > `VITE_FB_MESSAGINGSENDERID=` <br>
-   > `VITE_FB_APPID=` <br>
+   > `VITE_FB_APIKEY=` <br> > `VITE_FB_AUTHDOMAIN= `<br> > `VITE_FB_PROJECTID=` <br> > `VITE_FB_STORAGEBUCKET=` <br> > `VITE_FB_MESSAGINGSENDERID=` <br> > `VITE_FB_APPID=` <br>
 
 4. To initialize the Firebase SDK and for the app to be able to use the Firebase services, fill out the corresponding variables in the _.env_ file with your configuration data that looks like this:
 
@@ -69,7 +64,7 @@ This is a basic chat app that requires user authentication, you can send text w/
 
    to start serving the app on your local machine.
 
-7. Now, add a another variable in your .env file:
+7. Now, add a another variable in your _.env_ file:
 
    > `VITE_ACTION_URL = http://localhost:5173/`
 

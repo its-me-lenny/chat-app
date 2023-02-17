@@ -46,7 +46,7 @@ This is a basic chat app that requires user authentication, you can send text w/
 
 3. You need to create an .env file first with these variables which will contain the configuration from Firebase. This will help prevent others to have access to your configuration data if you are planning to share the codebase to others. Just make sure that the _.env_ is included in your _.gitignore_ file.} :
 
-   > `VITE_FB_APIKEY=` <br> > `VITE_FB_AUTHDOMAIN= `<br> > `VITE_FB_PROJECTID=` <br> > `VITE_FB_STORAGEBUCKET=` <br> > `VITE_FB_MESSAGINGSENDERID=` <br> > `VITE_FB_APPID=` <br>
+   > `VITE_FB_APIKEY=` <br> `VITE_FB_AUTHDOMAIN= `<br> `VITE_FB_PROJECTID=` <br> `VITE_FB_STORAGEBUCKET=` <br> `VITE_FB_MESSAGINGSENDERID=` <br> `VITE_FB_APPID=` <br>
 
 4. To initialize the Firebase SDK and for the app to be able to use the Firebase services, fill out the corresponding variables in the _.env_ file with your configuration data that looks like this:
 
@@ -88,3 +88,4 @@ This is a basic chat app that requires user authentication, you can send text w/
 - Chinchilla favicon by [Icons8](https://icons8.com/icon/-OzfA26hCSZg/chinchilla).
 - Checkmark icon by [Icons8](https://icons8.com/icon/114054/checkmark).
 - [Tutorial and inspiration](https://www.youtube.com/watch?v=k4mjF4sPITE) from [Lama Dev](https://www.youtube.com/@LamaDev/featured) ([safak](https://github.com/safak) on GitHub).
+- [Vite](https://vitejs.dev/) for bootstrapping the project.
